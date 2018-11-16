@@ -18,7 +18,9 @@ with a header "symbol". The third to the last column of this file should contain
 values corresponding to that feature. For example:
 
 ,symbol,sample1,sample2,sample3
+
 1,gene1,12.2222,188.876,23.8777
+
 2,gene2,32.4226,128.172,73.7657
 
 The values 12.2222, 188.876, 23.8777 are relative gene expression for gene1.
@@ -34,8 +36,11 @@ This column is used to distinguish the data.
 Example of Metadata file:
 
 sIdx,Time
+
 sample1,2
+
 sample2,4
+
 sample3,8
 
 If there is any junk/missing value for any gene, that gene will be eliminated from the 
